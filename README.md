@@ -1,1 +1,1 @@
-# AppliJeuPiste
+# jeu2piste

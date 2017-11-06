@@ -1,0 +1,310 @@
+@font-face {
+  font-family: 'At';
+  src: url('../fonts/Kingthings_Foundation.ttf');
+}
+@font-face {
+  font-family: 'Ot';
+  src: url('../fonts/SourceSansPro-Regular.otf');
+}
+* {
+  font-family: "Ot";
+}
+body {
+  margin: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  background: url("../img/narbonne.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content {
+  background-color: rgba(0,0,0,0.6);
+  box-shadow: 4px 4px 4px;
+  border-radius: 3px;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+.header {
+  margin-top: 1%;
+  background: url("../img/background.jpg") scroll no-repeat;
+  border-radius: 3px 3px 0px 0px;
+}
+.h1 {
+  text-align: center;
+  font-size: 310%;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-family: "At";
+  margin: 5% auto;
+}
+.rules h2 {
+  font-size: 200%;
+  color: black;
+  font-family: "At";
+}
+.h3 {
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 150%;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+  font-family: "At";
+}
+ul.topInfo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1%;
+}
+ul.topInfo li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 10px;
+  text-decoration: none;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 3px;
+}
+ul.topInfo li {
+  float: left;
+  margin: 3%;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(80, 242, 88, 0.5);
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  border-radius: 3px 3px 0px 0px;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li.right {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {
+  background-color: rgba(255,255,255,0.2);
+}
+ul.topnav li a.active {
+  background-color: rgba(255,255,255,0.2);
+}
+.rule{
+  margin: 5%;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 3px;
+  padding: 5px;
+}
+.rules{
+  margin: 5%;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 3px;
+  padding: 5px;
+  text-align: center;
+
+}
+.rulemap{
+  margin: 5%;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 3px;
+}
+.titremap{
+  text-align: center;
+}
+/**/
+.but{
+  text-align: right;
+}
+/**/
+.rules h1 {
+  font-family: "At";
+  padding: 8px 8px 0px 8px;
+  margin-bottom: 0px;
+}
+.rules p {
+  padding: 12px;
+}
+.fin{
+  width: 100%;
+  text-align: center;
+}
+.rep{
+  /*padding: 0px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+.rep input{
+  display: flex;
+  flex-wrap: nowrap;
+  width:20px;
+  height:20px;
+  text-align: center;
+  padding-bottom: 4px;
+  font-size: 1em;
+}
+.valid{
+font-size: 1em;
+width: 7em;
+}
+.bouton{
+  /*text-align: center;
+  padding-top: 5%;*/
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+}
+.soluce{
+  background-color: white;
+  font-size: 1.2em;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 0px 4px 0px 4px;
+}
+.clue{
+  color: red;
+}
+.indices{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imageIndice {
+margin: 0 auto;
+width: 60%;
+}
+.myFlex{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5%;
+}
+.imageEnigme {
+  width: 90%;
+  margin: 5%;
+}
+.myFlex > p{
+  align-items: flex-start;
+}
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+.image:hover{
+  transform:scale(1.5,1.5);
+}
+.reponse {
+  text-align: center;
+  padding-bottom: 5%;
+}
+hr.style-eight { padding: 0; border: none; border-top: medium double #333; color: #333; text-align: center;
+}
+hr.style-eight:after { content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em;
+}
+.contact h2{
+  padding-left: 2%;
+  margin: 5% auto;
+}
+.contact p{
+  font-size: 1em;
+}
+#true{
+  display:none;
+  margin-top:0.3em;
+}
+#map.accueilmap{
+  display: flex;
+  justify-content: center;
+}
+#false{
+  display:none;
+  margin-top:0.3em;
+}
+#map {
+  height: 400px;
+  width: 300px;
+}
+@media all and (max-width: 1200px) {
+  ul.topnav li {
+    float: none;
+  }
+  body {
+    margin:0;
+  }
+  .header {
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .content {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .rulemap img{
+    width: 90%;
+  }
+  .rep{
+    width: 100%;
+  }
+}
+.aValid{
+  width: auto;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+#slider{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/*fenetre modale de felicitation*/
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 250px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    /*background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);*/
+    background-image: url('../img/artifice.gif');
+    background-repeat: no-repeat;
+}
+img.btn_close {
+    float: right;
+    margin: -12px -25px 0 0;
+}
+/*fenetre modale de felicitation*/
